@@ -36,6 +36,7 @@ template.set_template(opt)
 
 # dataset
 opt.data_path = f"{opt.data_root}/cave_1024_28/"
+# opt.data_path = f"{opt.data_root}/CAVE_512_28/"
 opt.mask_path = f"{opt.data_root}/TSA_simu_data/"
 opt.test_path = f"{opt.data_root}/TSA_simu_data/Truth/"
 

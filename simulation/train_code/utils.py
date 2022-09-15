@@ -41,6 +41,7 @@ def LoadTraining(path):
             if 'mat' not in scene_path:
                 continue
             img_dict = sio.loadmat(scene_path)
+            # print(img_dict)
             if "img_expand" in img_dict:
                 img = img_dict['img_expand'] / 65536.
             elif "img" in img_dict:
